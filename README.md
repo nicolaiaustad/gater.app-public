@@ -4,7 +4,7 @@
 
 ### 1. Install Gater.app from https://github.com/marketplace
 
-1. Navigate to https://github.com/apps/nicolaiaustad-guru-test
+1. Navigate to [https://github.com/apps/nicolaiaustad-guru-test](https://github.com/settings/apps/gater-app)
 2. Click **Install**
 3. Select the repositories where you want to enable PR Quiz
 4. Click **Install & Authorize**
