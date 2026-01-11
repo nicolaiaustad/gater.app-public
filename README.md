@@ -14,6 +14,8 @@ Gater is a tool to help developers validate their understanding of the code they
 
 When a Pull Request is opened, Gater automatically generates a short quiz based on the changes in the PR. The PR owner must complete the quiz to demonstrate they understand the implications of their code before the PR can be approved or merged.
 
+To use Gater you must install the GitHub App and the browser extension (currently only supporting Chrome)
+
 
 ## Installation
 
@@ -26,7 +28,7 @@ When a Pull Request is opened, Gater automatically generates a short quiz based 
 
 ### 2. Install the Gater.app Chrome Extension
 
-1. Download and unzip the `gater-chrome-extension.zip` file
+1. Download and unzip the `gater-chrome-extension.zip` file from this repository
 2. Open Chrome and navigate to `chrome://extensions`
 3. Enable **Developer mode** (toggle in the top-right corner)
 4. Click **Load unpacked**
