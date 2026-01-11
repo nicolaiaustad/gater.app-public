@@ -1,21 +1,34 @@
 # Gater in GitHub - User Guide
 
+## Why does Gater Exist
+
+The rapid introduction of AI coding agents has transformed how software is built. 
+While these tools are excellent at producing correct syntax, they often result in vibe coded designs that feel right but haven’t been deeply reasoned about. 
+Vibe coding is acceptable for implementation details, but it becomes risky when applied to system architecture and design decisions. Gater exists to keep developers in the pilot seat.
+
+## What is Gater
+
+Gater is a tool for helping teams improve code review quality by validating developers’ understanding of code changes.
+
+When a Pull Request is opened, Gater automatically generates a short quiz based on the changes in the PR. Reviewers must complete the quiz to demonstrate they understand the code before the PR can be approved or merged.
+
+
 ## Installation
 
 ### 1. Install Gater.app from https://github.com/marketplace
 
 1. Navigate to https://github.com/apps/gater-app
 2. Click **Install**
-3. Select the repositories where you want to enable PR Quiz
+3. Select the repositories where you want Gater to exist
 4. Click **Install & Authorize**
 
-### 2. Install Chrome Extension
+### 2. Install the Gater.app Chrome Extension
 
-1. Download and unzip the `pr-quiz-extension.zip` file
+1. Download and unzip the `gater-chrome-extension.zip` file
 2. Open Chrome and navigate to `chrome://extensions`
 3. Enable **Developer mode** (toggle in the top-right corner)
 4. Click **Load unpacked**
-5. Select the unzipped `pr-quiz-extension` folder
+5. Select the unzipped `gater-chrome-extension` folder
 
 ## Usage
 
