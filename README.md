@@ -22,9 +22,10 @@ To use Gater you must install the GitHub App and the browser extension (currentl
 ### 1. Install Gater.app from https://github.com/marketplace
 
 1. Navigate to https://github.com/apps/gater-app
-2. Click **Install**
-3. Select the repositories where you want Gater to exist
-4. Click **Install & Authorize**
+2. Click **Configure** to install
+3. Choose between installing Gater personally or for your organization
+4. Select the repositories where you want Gater to exist
+5. Click **Install & Authorize**
 
 ### 2. Install the Gater.app Chrome Extension
 
