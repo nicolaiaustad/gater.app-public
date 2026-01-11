@@ -44,10 +44,24 @@ When a Pull Request is opened, Gater automatically generates a short quiz based 
 
 ### Admin settings
 
-Click on the menu icon in the top right corner of the sidebar or navigate to https://guru-production-1f32.up.railway.app/admin/login to log in to the Admin portal
-*Tips 1* If you are on the Free subscription, upgrade to Pro subcription or enter your own Claude API Key in the admin portal to avoid hitting the monthly quiz generation rate limit.
-*Optional* If you are on the Pro subscription, choose the custom topics you want your team members to be quizzed on.
-*Optional* If you are on the Pro subscription, disable the Gater quiz generation for certain team members if  
+Click the menu icon in the top-right corner of the sidebar, or visit
+https://guru-production-1f32.up.railway.app/admin/login
+ to access the Admin portal.
+
+From the Admin portal, you can configure how Gater works for your team:
+
+**Free plan:**
+  - Upgrade to Pro or add your own Claude API key to avoid hitting the monthly quiz-generation limit.
+
+**Pro plan (recommended):**
+
+  - Customize the quiz topics to match your team’s tech stack and review standards
+
+  - Disable quiz generation for specific team members when needed
+
+  - Remove rate limits and ensure quizzes are always available when PRs are opened
+
+The Pro plan gives you full control over how and when Gater works alongside your team without interruptions or limits.
 
 ### Troubleshooting
 
