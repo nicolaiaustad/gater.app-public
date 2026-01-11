@@ -44,7 +44,8 @@ When a Pull Request is opened, Gater automatically generates a short quiz based 
 
 ### Admin settings
 
-Click the menu icon in the top-right corner of the sidebar,  or visit https://guru-production-1f32.up.railway.app/admin/login to access the Admin portal.
+Click the menu icon in the top-right corner of the sidebar,  
+or visit https://guru-production-1f32.up.railway.app/admin/login to access the Admin portal.
 
 From the Admin portal, you can configure how Gater works for your team:
 
