@@ -4,13 +4,15 @@
 
 The rapid introduction of AI coding agents has transformed how software is built. 
 While these tools are excellent at producing correct syntax, they often result in vibe coded designs that feel right but haven’t been deeply reasoned about. 
-Vibe coding is acceptable for implementation details, but it becomes risky when applied to system architecture and design decisions. Gater exists to keep developers in the pilot seat.
+Vibe coding is acceptable for implementation details, but it becomes risky when applied to system architecture and design decisions. 
+
+Gater exists to keep developers in the pilot seat.
 
 ## What is Gater
 
-Gater is a tool for helping teams improve code review quality by validating developers’ understanding of code changes.
+Gater is a tool to help developers validate their understanding of the code they have written before merging pull requests.
 
-When a Pull Request is opened, Gater automatically generates a short quiz based on the changes in the PR. Reviewers must complete the quiz to demonstrate they understand the code before the PR can be approved or merged.
+When a Pull Request is opened, Gater automatically generates a short quiz based on the changes in the PR. The PR owner must complete the quiz to demonstrate they understand the implications of their code before the PR can be approved or merged.
 
 
 ## Installation
@@ -34,11 +36,18 @@ When a Pull Request is opened, Gater automatically generates a short quiz based 
 
 ### Taking a Quiz
 
-1. Open any Pull Request in a repository where PR Quiz is enabled
-2. The quiz UI will appear automatically on the right side of the PR page
+1. Open any Pull Request in a repository where Gater is enabled
+2. The quiz UI will appear automatically as a sidebar on the right side of the PR page
 3. Hover over the quiz panel to view questions
 4. Answer all questions and click **Submit**
-5. Click the verification button to update the PR check status with your score
+5. Click the verification button to acknowledge your understanding, allowing you to merge the PR.
+
+### Admin settings
+
+Click on the menu icon in the top right corner of the sidebar or navigate to https://guru-production-1f32.up.railway.app/admin/login to log in to the Admin portal
+*Tips 1* If you are on the Free subscription, upgrade to Pro subcription or enter your own Claude API Key in the admin portal to avoid hitting the monthly quiz generation rate limit.
+*Optional* If you are on the Pro subscription, choose the custom topics you want your team members to be quizzed on.
+*Optional* If you are on the Pro subscription, disable the Gater quiz generation for certain team members if  
 
 ### Troubleshooting
 
@@ -54,7 +63,4 @@ When a Pull Request is opened, Gater automatically generates a short quiz based 
 
 ## Support
 
-If issues persist, contact your administrator with:
-- Browser console errors (screenshot from DevTools)
-- PR URL where the issue occurred
-- Extension version (found at `chrome://extensions`)
+If issues persist, contact your administrator by clicking the "Report bug" button in the top right corner inside the Gater sidebar, or send an email to austadservice@gmail.com
