@@ -49,6 +49,9 @@ To use Gater you must install the GitHub App and the browser extension (currentl
 Click the menu icon in the top-right corner of the sidebar,  
 or visit https://guru-production-1f32.up.railway.app/admin/login to access the Admin portal.
 
+For private users: log in using your GitHub username
+For team users: log in using your GitHub organization name
+
 From the Admin portal, you can configure how Gater works for your team:
 
 **Free plan:**
